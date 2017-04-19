@@ -16,9 +16,10 @@ function main2()
     var renderer = new THREE.WebGLRenderer();
     renderer.setSize( width, height );
     document.body.appendChild( renderer.domElement );
+    renderer.setClearColor(0xe0ffff, 1.0);
 
     var geometry = new THREE.BoxGeometry( 1, 1, 1 );
-    var light = new THREE.PointLight(0xff00ff);
+    var light = new THREE.PointLight(0x00fa9a);
     light.position.set(1,1,1);
     scene.add(light);
     var material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
