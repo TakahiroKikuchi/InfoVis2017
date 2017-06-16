@@ -25,20 +25,20 @@
         <div id="controller" style="width:20%; float:left;">
 	  <label id="label" style="font-family:Arial;"></label>
 	  <br>
-ÅõColorMap<br>      
+ColorMap<br>      
       <input type="radio" name="Q2" onclick="change_ColorMap()" id="red" checked="checked"> Red <br>
       <input type="radio" name="Q2" onclick="change_ColorMap()" id="green"> Green <br>
       <input type="radio" name="Q2" onclick="change_ColorMap()" id="blue"> Blue <br>
 
       <input type="radio" name="Q2" onclick="change_ColorMap()" id="rainbow"> Rainbow<br>
-      redÅF <input type="number" value="128" id="numberOfRedvalue" disabled = "true"
+      red:<input type="number" value="128" id="numberOfRedvalue" disabled = "true"
                                           oninput="change_ColorBoxValue()" onchange="change_ColorValue()"/><br>
       <input type="range" min="0" max="1" step="0.01" value="0.5" id="redvalue" disabled = "true"
                                           oninput="display_RGBvalue()" onchange="display_RGBvalue()"/><br>
-      greenÅF <input type="number" value="128" id="numberOfGreenvalue" disabled = "true"
+      green:<input type="number" value="128" id="numberOfGreenvalue" disabled = "true"
                                           oninput="change_ColorBoxValue()" onchange="change_ColorValue()"/><br>
       <input type="range" min="0" max="1" step="0.01" value="0.5" id="greenvalue" disabled = "true"
-                                         oninput="display_RGBvalue()" onchange="display_RGBvalue()"/><br>                                   blueÅF <input type="number" value="128" id="numberOfBluevalue" disabled = "true"
+                                         oninput="display_RGBvalue()" onchange="display_RGBvalue()"/><br>                                   blue: <input type="number" value="128" id="numberOfBluevalue" disabled = "true"
                                           oninput="change_ColorBoxValue()" onchange="change_ColorValue()"/><br>
       <input type="range" min="0" max="1" step="0.01" value="0.5" id="bluevalue" disabled = "true"
                                          oninput="display_RGBvalue()" onchange="display_RGBvalue()"/><br>
@@ -46,7 +46,7 @@
       <br><br>
 
       
-      ÅõIsovalue<br>
+      Isovalue<br>
       <input type="range" min="0" max="1" step="0.01" value="0.5" id="isovalue" 
                                          oninput="display_isovalue(this.value)" onchange="display_isovalue(this.value)"/><br>
       isovalue: <input type="number" value="128" id="numberOfIsovalue"
@@ -60,7 +60,7 @@
 
       
 <br><br>
-      ÅõModel<br>
+      Model<br>
       <input type="radio" name="Q1" checked="checked" onclick="change_shader()" id="Lambert" > lambertian<br>
       <input type="radio" name="Q1" onclick="change_shader()" id="Phong"> phong<br>
       <input type="radio" name="Q1" onclick="change_shader()" id="Blinn"> blinnphong<br>
